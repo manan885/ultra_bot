@@ -7,7 +7,7 @@ import psycopg2
 
 # Configure API
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-model = genai.GenerativeModel("gemini-1.5-pro")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Database connection
 def connect_db():
